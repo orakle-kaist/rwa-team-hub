@@ -1,0 +1,28 @@
+# OS/editor noise
+.DS_Store
+*.swp
+*.swo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+
+# Dependencies and build outputs
+node_modules/
+dist/
+build/
+.cache/
+coverage/
+
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+
+# OpenClaw local state
+.openclaw/
